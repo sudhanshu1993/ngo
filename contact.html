@@ -49,338 +49,184 @@
       <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
 
 <style type="text/css">
-  .container {
-    padding: 50px;
-  background-color: lightblue;
-  margin-left: 50vh;
+    a#contactPageLink
+    { 
+      color: #018fc9;
+      font-weight:bold;
+    }
+
+#contact{
+  padding:4% 0;
 }
-
-
- div {
-            padding: 10px 0;
-         }
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+#contact h3{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 2%;
 }
-
-.registerbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-.registerbtn:hover {
-  opacity: 1;
-}
-
-.full{background-color: #fff;width: 100%;height: 180vh;position: relative;}
-.full .first{position: absolute;top: 5px;left: 13%;background-color: #fff;width: 40%;height: 50px;}
-
-.full .second{position: absolute;top:60px;left:13%;background-color: #000;width: 50%;height: 90vh;}
-.full .third{position: absolute;top:60px;left:63%; background-color: #f2f2f2;width: 28%;height: 90vh;}
-
-
-span{
-    margin-right: 20px;
-}
-form{
-  width:100%;
-  text-align: center;
-
-}
-
-input{
-  width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
-  color: #fff;
-}
-button{
-  border:none;
-  width: 190px;
-  background:#ff9800;
-  color: #fff;
-text-align:center;
-font-size:16px;
-line-height:25px;
-padding: 10px 0;
-border-radius: 15px;
-cursor: pointer;
-font-weight: bold;
-
-}
-textarea{
-    width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
-  color: #fff;
-}
-
-.full iframe
- {
-    border:0;
-    margin-left: 50px;
-    margin-bottom: 50px;
+#contact h1{
+  font-size: 180px;
+  font-weight: bold;
+  opacity: 0.5;
+  color: #018fc9;
+  display: block;
   position: absolute;
-  top:65%;
-  left: 9.5%;
-  width: 78%;
-
-}
-
-@media only screen and (max-width:1366px) {
-.full{background-color:#fff;width: 100%;height: 200vh;position: relative;}
-.full .first{position: absolute;top: 5px;left: 13%;background-color:#fff;width: 40%;height: 50px;}
-
-.full .second{position: absolute;top:60px;left:13%;background-color: #000;width: 50%;height: 110vh;}
-.full .third{position: absolute;top:60px;left:63%; background-color: #f2f2f2;width: 28%;height: 110vh;}
-
-
-span{
-    margin-right: 20px;
-}
-form{
-  width:100%;
+  width: 143%;
   text-align: center;
-
+  margin: 0;
+  padding-top: 0;
 }
-
-input{
-  width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
+.padWala{}
+#contact h2{
   color: #fff;
 }
-button{
-  border:none;
-  width: 190px;
-  background:#ff9800;
-  color: #fff;
-text-align:center;
-font-size:16px;
-line-height:25px;
-padding: 10px 0;
-border-radius: 15px;
-cursor: pointer;
-font-weight: bold;
-
-}
-textarea{
-    width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
+#contact p{
   color: #fff;
 }
-
-.full iframe
- {
-    border:0;
-    margin-left: 50px;
-    margin-bottom: 50px;
-  position: absolute;
-  top:65%;
-  left: 9.5%;
-  width:78%;
-
-
+.blackBg{
+  background-color: #262624;
+  padding: 1% 3%;
 }
+.form{
+  border-radius: 10px;
 }
-
-
-
-@media only screen and (max-width:800px) {
-  .full{background-color: #fff;width: 100%;height: 200vh;position: relative;}
-.full .first{position: absolute;top: 5px;left: 13%;background-color: #fff;width: 40%;height: 50px;}
-
-.full .second{position: absolute;top:60px;left:13%;background-color:#000 ;width: 50%;height: 110vh;}
-.full .third{position: absolute;top:60px;left:63%; background-color: #f2f2f2;width: 30%;height: 110vh;}
-
-
-span{
-    margin-right: 20px;
+.form input[type=text],input[type=email]{
+  margin-bottom:3%;
+  font-family:GraphikRegular;
+  border: 0;
+  border-bottom: 1px solid #666565;
+  border-radius: 0;
+  box-shadow: none;
+  background: none; 
+   color: #fff;
+  }
+.form input[type=text]:focus{
+  border-bottom:1px solid #ec3237;
 }
-form{
-  width:100%;
+.form input[type=email]:focus{
+  box-shadow:none;
+  border-bottom:1px solid #ec3237;
+}
+.form textarea{
+  font-family:GraphikRegular;
+  border: 0;
+  height: 130px;
+  border-bottom: 1px solid #666565;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom:2%;
+  background: none;
+  color: #fff;
+}
+.form textarea:focus
+{
+  box-shadow:none;
+  border-bottom:1px solid #ec3237;
+}
+textarea.form-control
+{
+  height: 130px;
+}
+.form input[type=submit]{
+  font-family:GraphikRegular;
+  display: block;
+  width:30%;
+  color: #fff;
+  font-weight: bold;
   text-align: center;
-
+  transition: all ease .7s;
+  font-size: 15px;
+  background: #ffc114;
+  border-radius:4px;
+  letter-spacing:1px;
+  border: 0;
+}
+.form input[type=submit]:hover{
+  background:#fff;
+  color:#ffc114;
+}
+.form input[type=submit]:focus{
+  box-shadow:none;
 }
 
-input{
-  width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
-  color: #fff;
+#contact h4{
+  color: #000;
+  font-size: 21px;
+  margin-bottom: 4%;
+  margin-top: 16%;
 }
-button{
-  border:none;
-  width: 190px;
-  background:#ff9800;
-  color: #fff;
-text-align:center;
-font-size:16px;
-line-height:25px;
-padding: 10px 0;
-border-radius: 15px;
-cursor: pointer;
-font-weight: bold;
-
+.address{
+  margin-top: 8%;
 }
-textarea{
-    width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
-  color: #fff;
+.drop{
+  background: #d3d3d380;
+  padding: 3%;
+  height: 458px;
 }
-.full iframe
- {
-    border:0;
-    margin-left: 50px;
-    margin-bottom: 50px;
-  position: absolute;
-  top:65%;
-  left:1%;
-  width: 25%;
-
-
-
+.drop p{}
+.drop p i{
+  color: #018fc9;
+  display: block;
+  float: left;
+  width: 22px;
+  height: 30px;
+  overflow: hidden;
+  line-height: 22px;
 }
+.drop p span{
+  color: #333;
 }
-
-
-@media only screen and (max-width:500px) {
-  .full{background-color: #fff;width: 100%;height: 200vh;position: relative;}
-.full .first{position: absolute;top: 5px;left: 13%;background-color: #fff;width: 40%;height: 50px;}
-
-.full .second{position: absolute;top:60px;left:13%;background-color: #000;width: 50%;height: 50vh;}
-.full .third{position: absolute;top:60px;left:63%; background-color: #f2f2f2;width: 30%;height: 50vh;}
-
-
-span{
-    margin-right: 20px;
+ul.socialContact{
+  list-style-type: none;
+  margin-left: -1%;
 }
-form{
-  width:100%;
+ul.socialContact li
+{
+  float: left;
+  margin-left: 1%;
+}
+ul.socialContact li a{}
+ul.socialContact li a i
+{
+  transition: ease all 1s;
+  color: #3b3c3c;
+  width: 30px;
+  height: 30px;
+  line-height: 26px;
+  font-size: 15px;
+  border: 1px solid #3b3c3c;
   text-align: center;
-
+  border-radius: 50px;
 }
-
-input{
-  width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
-  color: #fff;
-}
-button{
-  border:none;
-  width: 190px;
-  background:#ff9800;
-  color: #fff;
-text-align:center;
-font-size:16px;
-line-height:25px;
-padding: 10px 0;
-border-radius: 15px;
-cursor: pointer;
-font-weight: bold;
-
-}
-textarea{
-    width: 90%;
-  text-align: left;
-  background:transparent;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200px;
-  padding: 10px 0;
-  transition: border 0.5s;
-  outline: none;
-  color: #fff;
-}
-.full iframe
- {
-    border:0;
-    margin-left: 50px;
-    margin-bottom: 50px;
-  position: absolute;
-  top:65%;
-  left:1%;
-  width: 25%;
-
-
-
-}
+ul.socialContact li a:hover i
+{
+  transform: rotate(360deg);
+  color: #018fc9;
+  border: 1px solid #018fc9;
 }
 
 
-</style>
-</head>
+iframe{width: 100%;}
+/************* Responsive ******************/
+@media (max-width: 480px) {
+    .form input[type="submit"] {display: block;width: 36%;}
+    #contact h4 {margin-top: 0;}
+    .drop {height: 271px;}
+
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 900px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
 </head>
 <body onload="myfunction()">
          <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -434,54 +280,56 @@ textarea{
 
 </nav><br>
 
-           <div class="full">
-      <div class="first" >
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Hello! We are here to help you!</h3>
+            </div>
+        </div>
 
-        <p style="color: black;text-align: left;padding-left: 20px;font-size: 25px;">Hello, We are here to help you</p>
-      </div>
-      <!----------------------------------------------------------->
-      <div class="second" >
-        <form action="contact.php" method="post">
-          <br>
-          <p style="color: white;text-align: left;padding-left: 25px;font-size: 20px;">Tell us more about you and we'll contact you soon:</p><br>
-          <input type="text" name="name" placeholder="Your Name" required="" style=" color: #fff;"><br><br>
-          <input type="tel" name="mobile" placeholder="Your Phone Number" size="10" pattern="[789][0-9]{9}" required="" style=" color: #fff;"><br><br>
-          <input type="email" name="email" placeholder="Your Email Address" required="" style=" color: #fff;"><br><br>
-
-          <textarea name="message" rows="3" placeholder="Your Messages" required="" style=" color: #fff;"></textarea><br><br>
-          <button class="submitId" id="btn" style="height: 50px;border: 1px solid #ff9800;">Submit</button><br>
-          <br>
-
-        </form>
-      </div>
-      <div  class="third" >
-         <div class="featured-title">
-                <p style="text-align: left;font-size: 25px;padding-left: 20px;">Drop In Our Office</p>
-           </div>
-              <div class="featured-desc">
-                <p style="text-align: left;padding-left: 40px;font-size: 16px;"><i class="fa fa-map" aria-hidden="true" style="padding-right: 10px;color: blue;"></i>#80, 4th cross,Aswath Nagar,Marathahalli,Bangalore-560037</p><br>
-                <p style="text-align: left;padding-left: 40px;font-size: 16px;"><i class="fa fa-envelope" aria-hidden="true" style="padding-right: 10px;color: blue;"></i>Info@innerworkindia.com</p><br>
-                <p style="text-align: left;padding-left: 40px;font-size: 16px;"><i class="fa fa-phone" aria-hidden="true" style="padding-right: 10px;color: blue;"></i>(080) 4209 2269</p><br>
-             </div><br><br>
-
-              <div class="featured-title">
-                <p style="text-align: left;font-size: 20px;padding-left: 20px;">Follow Us</p>
-                <div class="social-media" style="margin-left: 30px;">
-                        <a href=""><i class="fa fa-facebook" aria-hidden="true" style="margin-left: 15px;"></i></a>
-                        <a href=""><i class="fa fa-linkedin" aria-hidden="true" style="margin-left: 15px;"></i></a>
-                        <a href=""><i class="fa fa-twitter" aria-hidden="true" style="margin-left: 15px;"></i></a>
-                        <a href=""><i class="fa fa-youtube" aria-hidden="true" style="margin-left: 15px;"></i></a>
+        <div class="col-md-8 blackBg">
+            <div class="padWala">
+                
+                <p>Tell us more about you and we'll contact you soon:</p>
+                <div class="row form">
+                    <div class="col-md-12">
+                        
+                        <form action="contact.php" method="post">
+                            <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+                            <!--<input type="text" name="phone" pattern="[0-9]{10}" placeholder="Your Phone Number" class="form-control" required>-->
+                            
+                            <input type="text" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Your Phone Number" class="form-control" required>
+                            
+                            <input type="email" name="email" placeholder="Your Email Address" class="form-control" required>
+                            <textarea name="msg" placeholder="Your Message" class="form-control" required></textarea>
+                            <input type="submit" value="Submit" name="submit" class="form-control" />
+                        </form>
                     </div>
-           </div>
-      </div>
-
-        <iframe src="https://lm.workplace.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FSahas%2BHomes%2BApartment%2F%4019.8604358%2C75.3465188%2C17z%2Fdata%3D%214m21%211m15%214m14%211m6%211m2%211s0x0%3A0xc50364931eb2f28c%212sSahas%2BHomes%2BApartment%212m2%211d75.3487075%212d19.8604358%211m6%211m2%211s0x3bdba3336b1c6c89%3A0xc50364931eb2f28c%212sSahas%2BHomes%2BApartment%2C%2BTirupati%2BVihar%2C%2BRoad%2C%2BGarkheda%2C%2BAurangabad%2C%2BMaharashtra%2B431009%212m2%211d75.3487075%212d19.8604358%213m4%211s0x3bdba3336b1c6c89%3A0xc50364931eb2f28c%218m2%213d19.8604358%214d75.3487075&h=AT1AMekPc7qbqImshCyJbRYhJ0kGpHf4JFlcLK_tfRbiJ7xYWCV3WzeHzoO9rvkDABMjAJIpuaA3JYWK-VpEQYcKLXkoMdg04nDqcPfp6NgjxTnH8KhlSvmMehrCRH8Rmlwn1PXZ6q83knjPRBLYFCkBJWrGAdsF"  height="310" frameborder="0"  allowfullscreen=""></iframe>
-
-
-
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 drop">
+            <h3>Drop In Our Office</h3>
+            <div class="address">
+                <p><i class="fa fa-map"></i> <span>#80, 4th cross, Aswath Nagar, Marathahalli, Bangalore - 560037</span></p>
+                <p><i class="fa fa-envelope"></i> <span>Info@innerworkindia.com</span></p>
+                <p><i class="fa fa-phone"></i> <span>(080)-4209-2269</span></p>
+            </div>
+            <h4>Follow Us</h4>
+            <ul class="socialContact">
+                <li><a href="https://www.facebook.com/InnerworkSolution/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/innerwork-solution-8a286919b" target="_blank"><i class="fa fa-linkedin"></i></a></li> 
+                <li><a href="https://twitter.com/innverwork " target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://youtu.be/LRL5GkFQTpA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
     </div>
-         <br>
-    <br>
+    <br/>
+    <div class="container">
+        <iframe src="https://lm.workplace.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FSahas%2BHomes%2BApartment%2F%4019.8604358%2C75.3465188%2C17z%2Fdata%3D%214m21%211m15%214m14%211m6%211m2%211s0x0%3A0xc50364931eb2f28c%212sSahas%2BHomes%2BApartment%212m2%211d75.3487075%212d19.8604358%211m6%211m2%211s0x3bdba3336b1c6c89%3A0xc50364931eb2f28c%212sSahas%2BHomes%2BApartment%2C%2BTirupati%2BVihar%2C%2BRoad%2C%2BGarkheda%2C%2BAurangabad%2C%2BMaharashtra%2B431009%212m2%211d75.3487075%212d19.8604358%213m4%211s0x3bdba3336b1c6c89%3A0xc50364931eb2f28c%218m2%213d19.8604358%214d75.3487075&h=AT1AMekPc7qbqImshCyJbRYhJ0kGpHf4JFlcLK_tfRbiJ7xYWCV3WzeHzoO9rvkDABMjAJIpuaA3JYWK-VpEQYcKLXkoMdg04nDqcPfp6NgjxTnH8KhlSvmMehrCRH8Rmlwn1PXZ6q83knjPRBLYFCkBJWrGAdsF" width="600" height="450" frameborder="1" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>

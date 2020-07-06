@@ -13,9 +13,9 @@
  }
 
 
+if(isset($_POST['submit'])){
 
-
- $sql = "INSERT INTO contact(name,mobile,email,message)VALUES('".$_POST["name"]."','".$_POST["mobile"]."','".$_POST["email"]."','".$_POST["message"]."')";
+ $sql = "INSERT INTO contact(name,mobile,email,message)VALUES('".$_POST["name"]."','".$_POST["phone"]."','".$_POST["email"]."','".$_POST["msg"]."')";
  if($conn->query($sql)===TRUE){
 ?><?php
   echo "Submitted successfully";
@@ -25,5 +25,6 @@
 else
 {
  echo "error:".$sql."<br>" .$conn->error;
+}
 }
 ?>
