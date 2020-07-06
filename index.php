@@ -120,8 +120,27 @@ include "functions.php";
             }
             .dropdown-content a:hover{color:#e6005c; }
             @media only screen and (max-width: 521px){
-              #mission .fontText {    font-size: 30px;}
-              #paragraph{font-size:18px;}
+              #mission, {margin:20px;}
+              #mission .fontText, .team h2 {font-size: 40px;}
+              #paragraph, #paragraph1, #paragraph3{font-size:18px;}
+              #initiatives{margin-left: 20px;}
+              #message1{margin-left:20px;}
+              #message1 .fontText {font-size: 30px;}
+              .imageDiv {
+    width: 200px;
+    height: 150px;
+    float: center;
+}
+#achievement{margin: min-content;}
+#achievement h2 {font-size:40px;}
+.team-gallery img {margin:auto;}
+.body-content {padding: unset;width:min-content;}
+.motivation-item h2{font-size: 40px;text-align: center;}
+.motivation-item h2{font-size:40px;}
+.rounded-circle {height: 150px;width: 200px;}
+#popUp {top:35%;}
+.submitId {
+    width: min-content;}
             }
 
 
@@ -897,7 +916,7 @@ function pass(){
             <div class="box-content">
                 <div class="responsive1">
                     <div class="gallery">
-                        < src="logo.png" >
+                        <img src="logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
                     </div>
                 </div>

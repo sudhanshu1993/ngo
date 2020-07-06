@@ -213,6 +213,9 @@ nav ul li a{
   .checkbtn{
     display: block;
   }
+    .col-lg-9 col-md-9{
+                margin-top: 10%;
+            } 
    nav ul{
     position: fixed;
     width: 100%;
@@ -242,7 +245,7 @@ nav ul li a{
 }
 @media (max-width: 854px){
   #heading{
-        font-size: 30px;
+        font-size: 17px;
   }
   #logo{
   width:100px;
@@ -254,7 +257,7 @@ nav ul li a{
 @media(max-width: 780px)
 {
   #heading{
-    font-size: 17px;
+    
   }
   #logo{
   width:90px;
@@ -263,7 +266,10 @@ nav ul li a{
   border-radius:5px;
   }
 }
-
+            #heading{
+                padding-top: 10%;
+                margin-top: 10%;
+            }       
 #mission{
     margin:5px;
     width:100%;
@@ -516,12 +522,12 @@ font-family: 'Oswald', sans-serif;
     <div id="header">
         <div class="logoTitle">
             <div class="row">
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3" style="">
                    <img id="logo" src="img/ngologo.jpg" style="margin-left:20px; " alt="Image not Found">
                 </div>
 
-                 <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: 200px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                 <div class="col-lg-9 col-md-9" id="hdnm" style="">
+                   <center><font id="heading" style="" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
@@ -560,7 +566,7 @@ font-family: 'Oswald', sans-serif;
             </ul>
 
         </nav>
-        <div class="container" style="border: outset; margin-top: 5%; height: 130%; margin-bottom: 5%;">
+        <div class="container" style="border: outset; margin-top: 5%; height: 135%; margin-bottom: 5%;">
             <form action="student_register.php" method="post" enctype="multipart/form-data">
 
                 <div class="form-group">
