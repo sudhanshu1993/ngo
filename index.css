@@ -139,3 +139,7 @@ nav ul li a{
 }
 
 
+@media (max-width: 1120px){
+#heading {
+    font-size: 35px;
+}
