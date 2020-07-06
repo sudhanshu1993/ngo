@@ -119,7 +119,10 @@ include "functions.php";
                 color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
-
+            @media only screen and (max-width: 521px){
+              #mission .fontText {    font-size: 30px;}
+              #paragraph{font-size:18px;}
+            }
 
 
         </style>
@@ -182,7 +185,7 @@ include "functions.php";
                 </div>
 
                  <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: 200px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                   <center><font id="heading" style="margin-right: auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
