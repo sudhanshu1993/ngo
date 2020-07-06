@@ -192,14 +192,14 @@
 
             <label class="logo">SABS</label>
             <ul>
-                <li><a class="active" href="#Home"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-                <li><a href="#main">Mission</a></li>
-                <li> <a href="#containerTab">Initiatives</a></li>
-                <li><a href="#mainTwo">Message</a></li>
-                <li><a href="#teamMembers">Team</a></li>
-                <li><a href="#motivation">Motivation</a></li>
-                <li><a href="javascript: pop()">Contact Us</a></li>
-                <li class="make_pay"><a href="#popUpMain" >Make Payment</a>
+                <li><a  href="index.php"><i class="fa fa-home"></i>&nbsp;<strong>Home</strong></a></li>
+      <li><a href="index.php#mission"><strong>Mission</strong></a></li>
+      <li> <a href="index.php#initiatives"><strong>Initiatives</strong></a></li>
+      <li><a href="index.php#message1"><strong>Message</strong></a></li>
+      <li><a href="index.php#teamMembers"><strong>Team</strong></a></li>
+      <li><a href="index.php#motivation"><strong>Motivation</strong></a></li>
+      <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+      <li class="make_pay"><a class="active"  href="#popUpMain" ><strong>Make Payment</strong></a>
                     <div class="dropdown-content">
                     <p onclick="checkuser();" style="cursor: pointer;height: 40px;">WITH DETAILS</p>
                     <p><a href="razorpay.php" style="text-decoration: none;height: 50px;background-color: #f9f9f9;">Direct Pay</a></p>

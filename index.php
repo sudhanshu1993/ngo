@@ -235,7 +235,7 @@ include "functions.php";
                 <li><a href="#message1"><strong>Message</strong></a></li>
                 <li><a href="#teamMembers"><strong>Team</strong></a></li>
                 <li><a href="#motivation"><strong>Motivation</strong></a></li>
-                <li><a href="contact.php"><strong>Contact Us</strong></a></li>
+                <li><a href="contact.html"><strong>Contact Us</strong></a></li>
                 <li class="make_pay"><a href="#popUpMain" ><strong>Make Payment</strong></a>
                     <div class="dropdown-content">
                     <p onclick="checkuser();" style="cursor: pointer;height: 40px;">WITH DETAILS</p>
