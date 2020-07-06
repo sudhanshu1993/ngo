@@ -83,6 +83,12 @@ nav ul li a{
     font-size: 10px;
   }
 }
+@media (max-width: 1120px){
+  #heading {
+      font-size: 35px;
+  }
+}
+
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -139,7 +145,3 @@ nav ul li a{
 }
 
 
-@media (max-width: 1120px){
-#heading {
-    font-size: 35px;
-}
