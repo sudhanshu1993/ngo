@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.footer {
+    width: 100%;
+    /*background: #00121b;*/
+    background-image: url(img/footerimage.jpg);
+    background-size: cover;
+    display: block;
+}
+.inner-footer {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+h1{
+    padding: 10px 0;
+    font-size: 18px;
+    color:black;
+    text-transform: uppercase;
+
+}
+.footer-items p {
+    color:black;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+h2 {
+    margin: 10px 0;
+    color:black;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.border {
+    width: 40px;
+    height: 2px;
+    background: #ff9800;
+}
+ul{
+    list-style: none;
+    color:black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+ul a{
+    text-decoration: none;
+    outline: none;
+    color:black;
+    transition: 0.3s;
+}
+.table{
+    text-decoration: none;
+}
+.table img{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 5px;
+}
+.table td p:hover{
+color: rgb(255, 251, 7);
+}
+/*ul a:hover {
+    color:rgb(255, 251, 7);
+}*/
+ul li{
+    margin: 10px 0;
+    height: 25px;
+}
+li i {
+    margin-right: 20px;
+}
+.social-media {
+    width:100%;
+    color:black;
+}
+.social-media a{
+    text-decoration:none;
+    display: inline-block;
+}
+.social-media i {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color:black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.social-media i:hover {
+    background: rgb(255, 251, 7);
+}
+.footer-bottom{
+    padding: 10px;
+    background: #b7d9e9;
+    color:black;
+    font-size: 12px;
+    text-align: center;
+}
+.footer-bottom a{
+    color: rgb(34, 10, 247);
+}
+.footer-bottom a:hover{
+    color: rgb(255, 251, 7);
+}
+@media screen and (max-width:1085px){
+    .footer-items{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .footer-items{
+        width: 100%;
+    }
+}
+
+

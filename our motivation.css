@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content {
+	width: 100%;
+	background-image: url(img/background.jpg);
+    background-size: cover;
+    display: block;
+}
+.body-content {
+    width: 95%;
+	margin: auto;
+	padding: 60px 30px;
+	display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content:center;
+}
+.motivation-item {
+	margin-top: 70px;
+    width: 50%;
+    padding-right:75px;
+    padding-left:75px;
+    box-sizing: border-box;
+}
+.motivation-item h2{
+    color:black;
+    font-size: 50px;
+}
+.motivation-border{
+    width: 110px;
+    height: 5px;
+    background: #ff9800;
+}
+.motivation-content1 p {
+    color:black;
+    font-size: 19px;
+    text-align:center;
+    line-height: 19px;
+    font-style: normal;
+	padding: 5px;
+}
+.motivation-content2 p {
+    color:black;
+    font-size: 19px;
+    text-align:center;
+    line-height: 19px;
+    font-style: normal;
+    padding: 5px;
+    margin: 10px;
+}
+@media screen and (max-width:778px){
+    .motivation-item{
+        width: 100%;
+    }
+}
+/*@media screen and (max-width:300px){
+    .motivation-items{
+        width: 100%;
+    }
+}*/

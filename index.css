@@ -1,0 +1,141 @@
+
+#logo{
+  width:200px;
+  height:70px;
+  margin:10px;
+  border-radius:5px;
+}
+#heading{
+  font-family: 'Courgette', cursive;
+  font-family: 'Metal Mania', cursive;
+  
+  font-size:50px;
+  color:white;
+}
+.logoTitle{
+  background-color:rgb(59, 176, 179);
+ /* background-color:rgba(25, 82, 152, 0.84);*/
+ background-image: url(img/img2.jpg);
+  height: 100px;
+  width:100%;
+  border-radius:5px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav{
+  background-color:rgb(252, 182, 121);
+  height: 50px;
+  width: 100%;
+}
+label.logo{
+  color:black;
+  font-size: 35px;
+  line-height: 50px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.active,a:hover{
+  background: rgb(248, 247, 153);
+  font-color:rgb(57, 202, 238);
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 50px;
+  margin-right: 60px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 1222px){
+  label.logo{
+    font-size: 19px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 10px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+   nav ul{
+    position: fixed;
+    width: 100%;
+    height: 70vh;
+    /*background:#ffdab3;*/
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 50px;
+    left: -100%;
+    text-align:center;
+    transition: all .3s;
+  }
+  nav ul li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: rgb(248, 247, 153);
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media (max-width: 854px){
+  #heading{
+        font-size: 30px;
+  }
+  #logo{
+  width:100px;
+  height:60px;
+  margin:10px;
+  border-radius:5px;
+  }
+}
+@media(max-width: 780px)
+{
+  #heading{
+    font-size: 17px;
+  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+
+
