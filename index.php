@@ -134,6 +134,10 @@ include "functions.php";
 #achievement{margin: min-content;}
 #achievement h2 {font-size:40px;}
 .team-gallery img {margin:auto;}
+.body-content {padding: unset;width:min-content;}
+.motivation-item h2{font-size: 40px;text-align: center;}
+.motivation-item h2{font-size:40px;}
+.rounded-circle {height: 150px;width: 200px;}
             }
 
 
@@ -909,7 +913,7 @@ function pass(){
             <div class="box-content">
                 <div class="responsive1">
                     <div class="gallery">
-                        < src="logo.png" >
+                        <img src="logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
                     </div>
                 </div>
