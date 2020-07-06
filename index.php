@@ -138,6 +138,9 @@ include "functions.php";
 .motivation-item h2{font-size: 40px;text-align: center;}
 .motivation-item h2{font-size:40px;}
 .rounded-circle {height: 150px;width: 200px;}
+#popUp {top:35%;}
+.submitId {
+    width: min-content;}
             }
 
 

@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
 
         <!-- Bootstrap CSS -->
-      
+
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="index.css" media="all">
@@ -46,7 +46,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
         <style>
-          
+
              h2{
             margin-left: 10%;
             margin-top: 5%;
@@ -72,7 +72,7 @@
             }
             #validation2{
                 color:white;
-            }            
+            }
 
             #popUpMain_2{
                 position:fixed;
@@ -107,20 +107,20 @@
                 top:22vh;
                 text-align: center;
                 height: 100px;
-                 
-            }            
+
+            }
             .dropdown-content p{
                 padding-bottom:10px;
                 border-bottom: 1px solid #a6a6a6;
-                
+
 
             }
-            
+
             .make_pay:hover .dropdown-content {
-                display: block;               
+                display: block;
             }
             .dropdown-content p:hover{
-                color:#e6005c;                              
+                color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
 
@@ -134,7 +134,7 @@
 #heading{
   font-family: 'Courgette', cursive;
   font-family: 'Metal Mania', cursive;
-  
+
   font-size:50px;
   color:white;
 }
@@ -287,7 +287,7 @@ font-family: 'Oswald', sans-serif;
     border: 4px solid #ff9800 ;
     border-radius:3px;
     width:150px;
-  
+
 }
 
 #paragraph{
@@ -312,7 +312,7 @@ font-family: 'Oswald', sans-serif;
     top:15px;
     width:400px;
     height:270px;
-    background-color:rgb(248, 247, 153); 
+    background-color:rgb(248, 247, 153);
     /*background-color:rgba(137, 194, 224, 0.89);*/
     border-radius:10px;
 }
@@ -327,7 +327,7 @@ font-family: 'Oswald', sans-serif;
     bottom:255px;
     width:400px;
     height:270px;
-    background-color:rgb(248, 247, 153); 
+    background-color:rgb(248, 247, 153);
     /*background-color:rgba(137, 194, 224, 0.89);*/
     border-radius:10px;
 }
@@ -342,7 +342,7 @@ font-family: 'Oswald', sans-serif;
     bottom:525px;
     width:400px;
     height:270px;
-    background-color:rgb(248, 247, 153); 
+    background-color:rgb(248, 247, 153);
     /*background-color:rgba(137, 194, 224, 0.89);*/
     border-radius:10px;
 }
@@ -423,7 +423,7 @@ color:rgb(0, 0, 0);
 font-size:60px;
 font-family: 'Oswald', sans-serif;
 }
-  
+
 #paragraph3{
    /*color:rgba(19, 118, 72, 0.92);*/
     font-size:22px;
@@ -440,19 +440,19 @@ font-family: 'Oswald', sans-serif;
 }
 
          </style>
-    </head> 
+    </head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-   
+
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-       
+
 
     <div id="popUpMain" style="display:none">
         <div id="popUp">
@@ -461,8 +461,8 @@ font-family: 'Oswald', sans-serif;
                 <p id="validation">we are here to help you...</p>
                 &nbsp;&nbsp;&nbsp;<font size="5" color="white">Name:</font>&nbsp;<input type="text" placeholder="Enter name" id="name"><br><br>
                 <font size="5" color="white">Contact:</font>&nbsp;<input type="text" placeholder="Enter contact" id="contact"><br>
-                <font size="5" color="white" style="font-weight:bold;">OR</font><br>   
-                <font size="5" color="white">Email:</font>&nbsp;<input type="text" placeholder="Enter email" id="email"><br>   
+                <font size="5" color="white" style="font-weight:bold;">OR</font><br>
+                <font size="5" color="white">Email:</font>&nbsp;<input type="text" placeholder="Enter email" id="email"><br>
                 <span id="otptxt"><font size="5" color="white">OTP:</font>&nbsp;<input type="text" placeholder="Enter OTP" id="otp"><br></span>
                 <br>
 
@@ -490,7 +490,7 @@ font-family: 'Oswald', sans-serif;
     </div>
 
 
-  
+
     <div id="header">
         <div class="logoTitle">
             <div class="row">
@@ -499,13 +499,13 @@ font-family: 'Oswald', sans-serif;
                 </div>
 
                  <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: 200px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                   <center><font id="heading" style="margin-right: auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
             </div>
         </div>
-        
+
     </div>
     <br>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -520,7 +520,7 @@ font-family: 'Oswald', sans-serif;
             <label class="logo">SABS</label>
             <ul>
                 <li><a class="active" href="#home"><i class="fa fa-home"></i>&nbsp;<strong>Home</strong></a></li>
-                <li><a href="#mission"><strong>Mission</strong></a></li> 
+                <li><a href="#mission"><strong>Mission</strong></a></li>
                 <li><a href="#initiatives"><strong>Initiatives</strong></a></li>
                 <li><a href="#message1"><strong>Message</strong></a></li>
                 <li><a href="#teamMembers"><strong>Team</strong></a></li>
@@ -532,20 +532,20 @@ font-family: 'Oswald', sans-serif;
                     <p><a href="donate2.php" style="text-decoration: none;height: 50px;background-color: #f9f9f9;">Direct Pay</a></p>
 
                     </div>
-                </li>  
-                  
+                </li>
+
 
             </ul>
 
         </nav>
                      <div class="container" style=" margin-top: 5%; height: 60%; border: outset; width: 24%; line-height: 10px; text-align: center; ">
-                        
+
                          <form action="index.php" method="POST">
                              <input type="hidden" name="amoun" value="<?php echo $_POST['amt']*100 ?>" id="amoun" />
                              <h2 style=" margin-left: 40%; margin-right: 30%; margin-bottom: 20%;"><b>Reciet</b></h2>
                              <h4 style="position: relative; margin-bottom: 40%; margin-left: 1%;"><i>Amount:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp; Rs. <?php echo $_POST['amt']; ?></i></h4>
 
-                         
+
  <script
           src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_Rh7ft8ij9EyEyE" // Enter the Key ID generated from the Dashboard
@@ -558,14 +558,14 @@ font-family: 'Oswald', sans-serif;
     data-prefill.email=""
     data-prefill.contact=""
     data-theme.color="#F37254"
-                
+
          >   </script>
                          </form>
-        
+
                      </div>
                 <div id="base" style="margin-top: 5%;">
                     <div class="content">
-                        
+
                       <div class="footer">
             <div class="inner-footer">
                 <div class="footer-items">
@@ -580,11 +580,11 @@ font-family: 'Oswald', sans-serif;
                         <a href=""style="text-decoration:none;"><li>Home</li></a>
                         <a href=""style="text-decoration:none;"><li>Mission</li></a>
                         <a href=""style="text-decoration:none;"><li>Initiatives</li></a>
-                        <a href=""style="text-decoration:none;"><li>Message</li></a>  
+                        <a href=""style="text-decoration:none;"><li>Message</li></a>
                     </ul></div>
                 <div class="footer-items">
-                    <ul>    
-                        <a href=""style="text-decoration:none;"><li></li></a>      
+                    <ul>
+                        <a href=""style="text-decoration:none;"><li></li></a>
                         <a href=""style="text-decoration:none;"><li>Team</li></a>
                         <a href=""style="text-decoration:none;"><li>Motivation</li></a>
                         <a href=""style="text-decoration:none;"><li>Contact Us</li></a>
@@ -639,7 +639,7 @@ font-family: 'Oswald', sans-serif;
                    adhaar.required="";
             non.style.display=anonymous.checked ? "none":"block";
           }
-       
+
         </script>
                 </body>
                 </html>
