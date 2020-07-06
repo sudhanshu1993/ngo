@@ -162,5 +162,151 @@ nav ul li a{
   }
 
 }
+@media(max-width: 760px)
+{
+  #heading{
+      font-size: 17px;
+      position: absolute;
+      top:  -3em; left: 10em;
+      width: 20em;
+      height: auto;
+  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+
+@media(max-width: 480px)
+{
+  #heading{
+    font-size: 15px;
+  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+@media  (max-width: 363px)
+{
+  #heading{
+    top: -50px;
+        left: 115px;
+        font-size: 14px;  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+
+
+@media  (max-width: 400px)
+{
+  #heading{
+    top: -50px;
+    left: 140px;
+    font-size: 13px;
+  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+@media  (max-width: 350px)
+{
+  #heading{
+    top: -50px;
+    left: 110px;
+    font-size: 13px;
+  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+@media  (max-width: 300px)
+{
+  #heading{
+    top: -50px;
+    left: 108px;
+    font-size: 11px;
+  }
+  #logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+}
+@media  (max-width: 334px)
+{
+  #heading{
+   top: -50px;
+   left: 90px;
+   font-size: 11px;
+ }
+ #logo{
+ width:70px;
+ height:50px;
+ margin:9px;
+ border-radius:5px;
+ }
+}
+
+@media(max-width: 292px)
+{
+  #heading{
+   top: -50px;
+   left: 90px;
+   font-size: 11px;
+ }
+ #logo{
+ width:70px;
+ height:50px;
+ margin:9px;
+ border-radius:5px;
+ }
+}
+
+@media only screen and (max-width: 280px)
+{
+  #heading{
+   top: -50px;
+   left: 90px;
+   font-size: 11px;
+ }
+ #logo{
+ width:70px;
+ height:50px;
+ margin:9px;
+ border-radius:5px;
+ }
+}
+
+@media only screen and (max-width: 250px)
+{
+  #heading{
+    top: -50px;
+    left: 70px;
+    font-size: 10px;
+  }
+  #logo{
+  width:50px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  }
+
+}
 
 
