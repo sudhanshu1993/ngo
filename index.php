@@ -130,7 +130,10 @@ include "functions.php";
     width: 200px;
     height: 150px;
     float: center;
+    margin: 0 auto;
+    display: block;
 }
+
 #achievement{margin: min-content;}
 #achievement h2 {font-size:40px;}
 .team-gallery img {margin:auto;}
@@ -141,7 +144,38 @@ include "functions.php";
 #popUp {top:35%;}
 .submitId {
     width: min-content;}
-            }
+            
+    .invi{
+    display: none;
+  }
+  #home{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #mission{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #initiatives{
+    height: 100vh;
+    overflow:hidden;
+
+  }
+  #achievement{
+    height: 100vh;
+    overflow:hidden;
+  }
+  .set{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #box {
+    height: 20vh;
+}
+#box font{
+    display:none;
+}
+}
 
 
         </style>
@@ -295,7 +329,7 @@ include "functions.php";
                 </div>
             </div>
 
-
+                    </div>
         <br>
         <br>
 
@@ -314,20 +348,21 @@ include "functions.php";
                             and betterment.We also aim at setting-up of rehabilitation centres for needy & affected people
                             and help them live a better life.We also implement youth welfare schemes and arrange personality
                             development seminar for the youth welfare.Our objective is to establish an equipped blood and eye bank
-                            for welfare of the needful.<br><br>
-                            We here at Sahayog Apang Bahuudeshya Sanstha believe in equality and humanity.<br><br>
+                            for welfare of the needful.
+                            <p class = "invi"><br><br>We here at Sahayog Apang Bahuudeshya Sanstha believe in equality and humanity.</p>
 
-                             Our vision is to create a developed nation where one day, all children in this nation
-                            will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.<br>
+                            <p class = "invi"> <br><br>Our vision is to create a developed nation where one day, all children in this nation
+                            will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.</p>
+                            <img src="img/image2.jpg" class="imageDiv">
                         </div>
-
+                        
 
                     </div>
 
                     <div class="col-lg-1 col-md-3">
 
                         <br><br><br><br><br><br>
-                        <img src="img/image2.jpg" class="imageDiv">
+                        
                     </div>
                 </div>
             </div>
@@ -411,7 +446,7 @@ include "functions.php";
 
         <!-- Messages-->
         <!-- Chairman's Message -->
-        <div id="message1" class="container-fluid" >
+        <div id="message1" class="container-fluid set" >
 
             <div class="container" >
                 <div class="row">
@@ -430,8 +465,6 @@ include "functions.php";
                     </div>
 
                     <div class="col-lg-3">
-
-                        <br><br><br><br><br>
                         <img src="img/chairman.jpg" class="imageDiv">
                     </div>
                 </div>
@@ -441,14 +474,14 @@ include "functions.php";
         <br><br>
 
         <!-- Secretary's Message  -->
-         <div id="message1" class="container-fluid" >
+         <div id="message1" class="container-fluid set" >
 
             <div class="container" >
                 <div class="row">
 
                      <div class="col-lg-3">
 
-                        <br><br><br>
+                        
                         <img src="img/vice-chairman.jpg" class="imageDiv">
                         <br>
                         <br>
@@ -473,7 +506,7 @@ include "functions.php";
 
 
 
-         <div id="message1" class="container-fluid city">
+         <div id="message1" class="container-fluid city set">
 
             <div class="container" >
                 <div class="row">
@@ -487,7 +520,6 @@ include "functions.php";
 
                     <div class="col-lg-3">
 
-                        <br><br><br><br><br>
                         <img src="img/ranjan.jpg" class="imageDiv">
                         <br>
                     </div>

@@ -142,6 +142,25 @@ nav ul li a{
   margin:9px;
   border-radius:5px;
   }
+  .invi{
+    display: none;
+  }
+  #home{
+    height: 100vh;
+  }
+  #mission{
+    height: 100vh;
+  }
+  #initiatives{
+    height: 100vh;
+  }
+  #achievement{
+    height: 100vh;
+  }
+  .set{
+    height: 100vh;
+  }
+
 }
 
 
